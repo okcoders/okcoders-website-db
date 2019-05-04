@@ -30,7 +30,7 @@ db.alumnis.insertOne({
   lastName: "Robbins",
   avatar: "https://avatars2.githubusercontent.com/u/42324388?s=400&v=4",
   age: 20,
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/brayden-robbins-313b81178/",
   github: "https://github.com/braydenrobbins"
 });
 
