@@ -1,10 +1,39 @@
+db.languages.insertOne({
+    _id: 1,
+    language: "html"
+});
+
+db.languages.insertOne({
+    _id: 2,
+    language: "js"
+});
+
+db.classes.insertOne({
+    _id: 1,
+    yearOfClass: 2018,
+    moduleNumber: 1,
+    languages: [1, 2],
+    title: "a class",
+    difficulty: "easy"
+});
+
+db.classes.insertOne({
+    _id: 2,
+    yearOfClass: 2019,
+    moduleNumber: 2,
+    languages: [1],
+    title: "another class",
+    difficulty: "easy"
+});
+
 db.alumnis.insertOne({
   firstName: "Zach",
   lastName: "Mays",
   avatar: "https://avatars2.githubusercontent.com/u/4370615?s=400&v=4",
   age: 29,
   linkedin: "https://www.linkedin.com/in/zmays/",
-  github: "https://github.com/zmays"
+  github: "https://github.com/zmays",
+  classes: [1, 2]
 });
 
 db.alumnis.insertOne({
@@ -13,7 +42,8 @@ db.alumnis.insertOne({
   avatar: "https://avatars1.githubusercontent.com/u/42389818?s=400&v=4",
   age: 30,
   linkedin: "https://www.linkedin.com/in/terry-brown-9aa1b8119/",
-  github: "https://github.com/ptbrown4"
+  github: "https://github.com/ptbrown4",
+  classes: [1]
 });
 
 db.alumnis.insertOne({
