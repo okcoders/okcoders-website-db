@@ -1,29 +1,25 @@
 db.languages.insertOne({
-    _id: 1,
-    language: "html"
+  language: "html"
 });
 
 db.languages.insertOne({
-    _id: 2,
-    language: "js"
+  language: "js"
 });
 
 db.classes.insertOne({
-    _id: 1,
-    yearOfClass: 2018,
-    moduleNumber: 1,
-    languages: [1, 2],
-    title: "a class",
-    difficulty: "easy"
+  yearOfClass: 2018,
+  moduleNumber: 1,
+  languages: [],
+  title: "a class",
+  difficulty: "easy"
 });
 
 db.classes.insertOne({
-    _id: 2,
-    yearOfClass: 2019,
-    moduleNumber: 2,
-    languages: [1],
-    title: "another class",
-    difficulty: "easy"
+  yearOfClass: 2019,
+  moduleNumber: 2,
+  languages: [],
+  title: "another class",
+  difficulty: "easy"
 });
 
 db.alumnis.insertOne({
