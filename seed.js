@@ -80,3 +80,10 @@ db.alumnis.insertOne({
   github: "https://github.com/smoring",
   classes: [classHash2]
 });
+
+db.users.insertOne({
+    username: "test",
+    // the below password is the hash of "test", so to login: username: test, password: test
+    password: "$2b$10$rkINzU0vhnGH8kkTu4WEQuDwUIK51aQ5kJYeT/ARNVShP5kFuFFQG"
+});
+
