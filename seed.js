@@ -55,7 +55,8 @@ db.alumnis.insertOne({
   age: new Date(1988, 9, 31),
   linkedin: "https://www.linkedin.com/in/zmays/",
   github: "https://github.com/zmays",
-  classes: [classHash, classHash2]
+  classes: [classHash, classHash2],
+  verified: true
 });
 
 db.alumnis.insertOne({
@@ -65,7 +66,8 @@ db.alumnis.insertOne({
   age: new Date(1988, 9, 31),
   linkedin: "https://www.linkedin.com/in/terry-brown-9aa1b8119/",
   github: "https://github.com/ptbrown4",
-  classes: [classHash3]
+  classes: [classHash],
+  verified: true
 });
 
 db.alumnis.insertOne({
@@ -75,7 +77,8 @@ db.alumnis.insertOne({
   age: new Date(1988, 9, 31),
   linkedin: "https://www.linkedin.com/in/joseph-okpara-0b8a6429/",
   github: "https://github.com/ojo88",
-  classes: [classHash]
+  classes: [classHash],
+  verified: false
 });
 
 db.alumnis.insertOne({
@@ -85,7 +88,7 @@ db.alumnis.insertOne({
   age: new Date(1988, 9, 31),
   linkedin: "https://www.linkedin.com/",
   github: "https://github.com/braydenrobbins",
-  classes: [classHash2]
+  classes: [classHash2],
 });
 
 db.alumnis.insertOne({
@@ -95,7 +98,8 @@ db.alumnis.insertOne({
   age: new Date(1988, 9, 31),
   linkedin: "https://www.linkedin.com/in/susanmoring/",
   github: "https://github.com/smoring",
-  classes: [classHash2]
+  classes: [classHash2],
+  verified: false
 });
 
 db.users.insertOne({
