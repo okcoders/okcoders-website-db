@@ -84,3 +84,10 @@ db.alumnis.insertOne({
   classes: [classHash2],
   verified: false
 });
+
+db.users.insertOne({
+    username: "test",
+    // the below password is the hash of "test", so to login: username: test, password: test
+    password: "$2b$10$rkINzU0vhnGH8kkTu4WEQuDwUIK51aQ5kJYeT/ARNVShP5kFuFFQG"
+});
+
